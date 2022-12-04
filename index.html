@@ -143,6 +143,41 @@
           </div>
         </div>
       </div>
+
+      <section id="my-supports">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>My Learning</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="supports-box">
+                <h6 class="support-name" style="font-size: 20px;">IM CURRENTLY LEARNING</h6>
+                <img src="img/html.png" alt="HTML 5" class="support-img" >
+                <a href="" class="btn btn-light support-detail-button">Show Details</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="supports-box">
+                <h6 class="support-name" style="font-size: 20px;">IM CURRENTLY LEARNING</h6>
+                <img src="img/cs24s.png" alt="CSS 3" class="support-img" >
+                <a href="" class="btn btn-light support-detail-button">Show Details</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="supports-box">
+                <h6 class="support-name" style="font-size: 20px;">IM CURRENTLY LEARNING</h6>
+                <img src="img/J2s.png" alt="javascript" class="support-img" >
+                <a href="" class="btn btn-light support-detail-button">Show Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -333,5 +368,14 @@
           .catch(error => console.error('Error!', error.message))
       });
     </script>
+
+<script type="text/javascript" src="vanilla-tilt.min.js"></script>
+<script>
+  VanillaTilt.init(document.querySelectorAll(".supports-box"), {
+    max: 35,
+    speed: 1000,
+    glare:true,
+  });
+</script>
   </body>
 </html>
